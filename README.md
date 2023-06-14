@@ -6,6 +6,14 @@ A single-page, one-column resume for software developers. It uses the base latex
 
 I created this template as managing a resume on Google Docs was hard and changing any formatting was too difficult since it had to be applied in multiple places. Most currently available templates either focus on two columns, or are multiple pages long. I personally found the two-column templates hard to focus while multiple-page resumes were just too long to be used in career fairs.
 
+## Setup with VS Code
+
+- Install [LaTeX](https://www.latex-project.org/): `sudo apt install texlive-latex-extra -y`
+- Install LaTeX Workshop extension for Visual Studio
+- Install [Latexmk](https://personal.psu.edu/~jcc8/software/latexmk/): `sudo apt install latexmk`
+
+It will rebuild whenever the tex file is saved.
+
 ## Preview
 
 <!-- ![Resume Screenshot](/resume_preview.png) -->
